@@ -1,0 +1,434 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+                    xmlns:models="clr-namespace:WpfApp.Models"
+                    xmlns:cmd="clr-namespace:WpfApp.Infrastructure.Commands"
+                    xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp">
+    <cmd:FavoriteCommand x:Key="FavoriteCommand" />
+    <cmd:ReservMasterCommand x:Key="ReservMasterCommand" />
+    <cmd:DeleteReservationCommand x:Key="DeleteReservationCommand"/>
+    <cmd:DeleteFavoriteCommand x:Key="DeleteFavoriteCommand"/>
+    <cmd:DeleteUserCommand x:Key="DeleteUserCommand"/>
+    <cmd:DeleteProcedureCommand x:Key="DeleteSketchCommand"/>
+    <cmd:EditPriceProcedureCommand x:Key="EditPriceCommand"/>
+    <cmd:DeleteMasterCommand x:Key="DeleteMasterCommand"/>
+    <cmd:ReminderCommand x:Key="ReminderCommand"/>
+    <cmd:CancelReservationCommand x:Key="CancelReservationCommand"/>
+
+    <Style TargetType="MenuItem">
+         <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontFamily" Value="\Fonts\#Donpoligrafbum"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Margin" Value="10 0"/>
+    </Style>
+    <Style TargetType="MenuItem" x:Key="MenuClick">
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontFamily" Value="\Fonts\#Donpoligrafbum"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Margin" Value="10 0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="MenuItem">
+                    <Border Background="{TemplateBinding Background}"
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}">
+                        <ContentPresenter Content="{TemplateBinding Header}"
+                                      ContentTemplate="{TemplateBinding HeaderTemplate}"
+                                      ContentStringFormat="{TemplateBinding HeaderStringFormat}"
+                                      Margin="{TemplateBinding Padding}"
+                                      HorizontalAlignment="Center"
+                                      VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="BorderBrush" Value="Transparent"/>
+                <Setter Property="Foreground" Value="#A2C6FF"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style TargetType="Image" x:Key="ImageClick">
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Width" Value="50"/>
+            </Trigger>
+        </Style.Triggers> 
+    </Style>
+    <Style TargetType="Menu">
+        <Setter Property="Margin" Value="0 10"/>
+        <Setter Property="HorizontalAlignment" Value="Right"/>
+    </Style>
+    <Style x:Key="MenuItem" TargetType="MenuItem">
+        <Setter Property="Background" Value="#1A1A1A"/>
+        <Setter Property="BorderThickness" Value="0"/>
+    </Style>
+    <Style x:Key="CustomTextBoxStyle" TargetType="TextBox">
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="BorderBrush" Value="White" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Margin" Value="5 20 0 20"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="TextBox">
+                    <Border Background="{TemplateBinding Background}"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            CornerRadius="10">
+                        <ScrollViewer x:Name="PART_ContentHost" />
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style TargetType="Button">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Foreground" Value="#A2C6FF"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="BorderBrush" Value="#A2C6FF"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Width" Value="500"/>
+        <Setter Property="Padding" Value="5 5"/>
+    </Style>
+            <DataTemplate x:Key="SketchForm" DataType="{x:Type models:Procedure}">
+        <Border BorderThickness="2">
+            <Grid  >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Border Grid.Row="0" Width="250" Height="250" CornerRadius="20">
+                    <Border.Background>
+                        <ImageBrush ImageSource="{Binding Image}" />
+                    </Border.Background>
+                </Border>
+                <StackPanel Grid.Row="0" Grid.Column="1">
+                <TextBlock Grid.Row="0" Grid.Column="1"
+                       Text="{Binding Name}"
+                       Foreground="White" 
+                       Margin="5"
+                       TextWrapping="Wrap"
+                       FontSize="20" 
+                       FontWeight="Medium"
+                       TextDecorations="Underline"
+                       FontFamily="C:\ПОИТ\4 sem\Course_project\Main_project\WpfApp1 2\WpfApp\WpfApp\Fonts\static\#Montserrat"></TextBlock>
+                
+                <TextBlock Grid.Row="0" Grid.Column="1"
+                           Text="{Binding Price}"
+                           FontSize="16" 
+                           Foreground="White"  
+                           Margin="5"
+                           TextWrapping="Wrap" 
+                           FontWeight="Regular"
+                           FontFamily="C:\ПОИТ\4 sem\Course_project\Main_project\WpfApp1 2\WpfApp\WpfApp\Fonts\static\#Montserrat"></TextBlock>
+                <TextBlock Grid.Row="0" Grid.Column="1"
+                           Text="{Binding Type}"
+                           FontSize="16" 
+                           Foreground="White" 
+                           Margin="5"
+                           TextWrapping="Wrap" 
+                           FontWeight="Regular"
+                           FontFamily="C:\ПОИТ\4 sem\Course_project\Main_project\WpfApp1 2\WpfApp\WpfApp\Fonts\static\#Montserrat"></TextBlock>
+                <TextBlock Grid.Row="0" Grid.Column="1"
+                           Text="{Binding Description}"
+                           FontSize="16" 
+                           Foreground="White" 
+                           Margin="5"
+                           Width="850"
+                           TextWrapping="Wrap" 
+                           FontWeight="Regular"
+                           FontFamily="C:\ПОИТ\4 sem\Course_project\Main_project\WpfApp1 2\WpfApp\WpfApp\Fonts\static\#Montserrat"></TextBlock>
+                                  </StackPanel>
+                <Button x:Name="heartButton" CommandParameter="{Binding}" Command="{StaticResource FavoriteCommand}" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Bottom" BorderThickness="0" Margin="10" Width="250" Height="50" Visibility="Hidden">
+                    <Button.Content>
+                        <Image Source="C:\ПОИТ\4 sem\Course_project\Main_project\WpfApp1 2\WpfApp\WpfApp\image\grayheart.png" HorizontalAlignment="Center" Width="30" Height="30">
+                            <Image.Style>
+                                <Style TargetType="{x:Type Image}">
+                                    
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsFavorite, UpdateSourceTrigger=PropertyChanged}" Value="True">
+                                            
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                    </Button.Content>
+                </Button>
+
+
+
+            </Grid>
+        </Border>
+        <DataTemplate.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter TargetName="heartButton" Property="Visibility" Value="Visible" />
+            </Trigger>
+        </DataTemplate.Triggers>
+    </DataTemplate>
+
+   
+
+    <DataTemplate x:Key="MastersList" DataType="{x:Type models:Master}">
+        <Grid Margin="15">
+           
+            <StackPanel Orientation="Horizontal">
+                <Ellipse Width="100" Height="100" x:Name="MyEllipse">
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="{Binding Image}"/>
+            </Ellipse.Fill>
+                  
+                </Ellipse>
+                <TextBlock Text="{Binding Name}" x:Name="MyText" Foreground="White" FontFamily="C:\ПОИТ\4 sem\Course_project\Main_project\WpfApp1 2\WpfApp\WpfApp\Fonts\static\#Montserrat" FontSize="16" VerticalAlignment="Center" Margin="20"></TextBlock>
+            </StackPanel>
+        </Grid>
+        <DataTemplate.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Trigger.EnterActions>
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetName="MyEllipse" Storyboard.TargetProperty="Width" To="105" Duration="0:0:0.1" />
+                            <DoubleAnimation Storyboard.TargetName="MyEllipse" Storyboard.TargetProperty="Height" To="105" Duration="0:0:0.1" />
+                            <DoubleAnimation Storyboard.TargetName="MyText" Storyboard.TargetProperty="FontSize" To="20" Duration="0:0:0.1" />
+                            <DoubleAnimation Storyboard.TargetProperty="Opacity" To="0.7" Duration="0:0:0.1" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </Trigger.EnterActions>
+                <Trigger.ExitActions>
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetName="MyEllipse" Storyboard.TargetProperty="Width" To="100" Duration="0:0:0.1" />
+                            <DoubleAnimation Storyboard.TargetName="MyEllipse" Storyboard.TargetProperty="Height" To="100" Duration="0:0:0.1" />
+                            <DoubleAnimation Storyboard.TargetName="MyText" Storyboard.TargetProperty="FontSize" To="16" Duration="0:0:0.1" />
+                            <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.1" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </Trigger.ExitActions>
+            </Trigger>
+        </DataTemplate.Triggers>
+    </DataTemplate>
+    
+    <Style x:Key="MainTitle" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontFamily" Value="C:\ПОИТ\4 sem\Course_project\Main_project\WpfApp1 2\WpfApp\WpfApp\Fonts\static\#Montserrat"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Margin" Value="0 10"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+    </Style>
+
+    <Style x:Key="MainTitleLog" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontFamily" Value="C:\ПОИТ\4 sem\Course_project\Main_project\WpfApp1 2\WpfApp\WpfApp\Fonts\static\#Montserrat"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Margin" Value="0 40"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+    </Style>
+
+    <Style x:Key="SubTitle" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontFamily" Value="C:\ПОИТ\4 sem\Course_project\Main_project\WpfApp1 2\WpfApp\WpfApp\Fonts\static\#Montserrat"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Margin" Value="0 0 0 20"/>
+    </Style>
+
+    <Style TargetType="ComboBox">
+        <Setter Property="FontSize" Value="18"></Setter>
+        <Setter Property="IsEditable" Value="true"></Setter>
+        <Setter Property="Margin" Value="10 10 10 10"></Setter>
+    </Style>
+
+    <Style x:Key="DefaultButtonStyle" TargetType="Button">
+
+        <Setter Property="Margin" Value="0" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="Foreground" Value="#A2C6FF" />
+        <Setter Property="BorderBrush" Value="#A2C6FF" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="FontSize" Value="12" />
+    </Style>
+
+    <Style TargetType="{x:Type ScrollBar}">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Foreground" Value="#1a1a1a"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type ScrollBar}">
+                    <Grid Background="{TemplateBinding Background}">
+                        <Track Name="PART_Track" 
+                           IsDirectionReversed="true">
+                            <Track.DecreaseRepeatButton>
+                                <RepeatButton Command="{x:Static ScrollBar.PageUpCommand}" 
+                                          Opacity="0" 
+                                          Background="Transparent" />
+                            </Track.DecreaseRepeatButton>
+                            <Track.IncreaseRepeatButton>
+                                <RepeatButton Command="{x:Static ScrollBar.PageDownCommand}" 
+                                          Opacity="0" 
+                                          Background="Transparent" />
+                            </Track.IncreaseRepeatButton>
+                            <Track.Thumb>
+                                <Thumb>
+                                    <Thumb.Template>
+                                        <ControlTemplate TargetType="{x:Type Thumb}">
+                                            <Grid Height="15">
+                                                <Border Background="Transparent" CornerRadius="10" BorderBrush="White" BorderThickness="1"/>
+                                            </Grid>
+                                        </ControlTemplate>
+                                    </Thumb.Template>
+                                </Thumb>
+                            </Track.Thumb>
+                        </Track>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    
+    
+    <Style x:Key="DataGridStyle" TargetType="DataGrid">
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="BorderBrush" Value="Transparent" />
+        <Setter Property="BorderThickness" Value="10" />
+        <Setter Property="HorizontalGridLinesBrush" Value="Transparent" />
+        <Setter Property="VerticalGridLinesBrush" Value="#3B619E" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="FontFamily" Value="C:\ПОИТ\4 sem\Course_project\Main_project\WpfApp1 2\WpfApp\WpfApp\Fonts\static\#Montserrat" />
+        <Setter Property="FontSize" Value="12" />
+        <Setter Property="RowHeaderStyle">
+            <Setter.Value>
+                <Style TargetType="DataGridRowHeader">
+                    <Setter Property="Background" Value="Transparent" />
+                    <Setter Property="Foreground" Value="White" />
+                    <Setter Property="FontFamily" Value="C:\ПОИТ\4 sem\Course_project\Main_project\WpfApp1 2\WpfApp\WpfApp\Fonts\static\#Montserrat" />
+                    <Setter Property="FontSize" Value="12" />
+                    <Setter Property="Height" Value="30" />
+                    <Setter Property="HorizontalAlignment" Value="Center" />
+                    <Setter Property="VerticalAlignment" Value="Center" />
+                    <Setter Property="BorderThickness" Value="0" />
+                    <!-- Дополнительные настройки стиля заголовков строк -->
+                </Style>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="ColumnHeaderStyle">
+            <Setter.Value>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="Background" Value="Transparent" />
+                    <Setter Property="Foreground" Value="White" />
+                    <Setter Property="FontFamily" Value="C:\ПОИТ\4 sem\Course_project\Main_project\WpfApp1 2\WpfApp\WpfApp\Fonts\static\#Montserrat" />
+                    <Setter Property="FontSize" Value="14" />
+                    <Setter Property="Height" Value="30" />
+                    <Setter Property="HorizontalContentAlignment" Value="Center" />
+                    <Setter Property="VerticalContentAlignment" Value="Center" />
+                    <!-- Дополнительные настройки стиля заголовков столбцов -->
+                </Style>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="CellStyle">
+            <Setter.Value>
+                <Style TargetType="DataGridCell">
+                    <Setter Property="Background" Value="Transparent" />
+                    <Setter Property="Foreground" Value="#3B619E" />
+                    <Setter Property="BorderBrush" Value="Transparent" />
+                    <Setter Property="Height" Value="50" />
+                    <Setter Property="FontFamily" Value="C:\ПОИТ\4 sem\Course_project\Main_project\WpfApp1 2\WpfApp\WpfApp\Fonts\static\#Montserrat" />
+                    <Setter Property="FontSize" Value="12" />
+                    <Setter Property="HorizontalContentAlignment" Value="Center" />
+                    <Setter Property="VerticalContentAlignment" Value="Center" />
+                    <!-- Дополнительные настройки стиля ячеек -->
+                </Style>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="RowStyle">
+            <Setter.Value>
+                <Style TargetType="DataGridRow">
+                    <Setter Property="Foreground" Value="#3B619E" />
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type DataGridRow}">
+                                <Border CornerRadius="10" Background="White" >
+                                    <SelectiveScrollingGrid>
+                                        <SelectiveScrollingGrid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </SelectiveScrollingGrid.ColumnDefinitions>
+                                        <SelectiveScrollingGrid.RowDefinitions>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="Auto"/>
+                                        </SelectiveScrollingGrid.RowDefinitions>
+                                        <DataGridCellsPresenter Grid.Column="1" />
+                                        <DataGridDetailsPresenter Grid.Column="1" Grid.Row="1" SelectiveScrollingGrid.SelectiveScrollingOrientation="{Binding AreRowDetailsFrozen, Converter={x:Static DataGrid.RowDetailsScrollingConverter}, ConverterParameter={x:Static SelectiveScrollingOrientation.Vertical}, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" Visibility="{TemplateBinding DetailsVisibility}"/>
+                                        <DataGridRowHeader Grid.RowSpan="2" SelectiveScrollingGrid.SelectiveScrollingOrientation="Vertical" Visibility="{Binding HeadersVisibility, Converter={x:Static DataGrid.HeadersVisibilityConverter}, ConverterParameter={x:Static DataGridHeadersVisibility.Row}, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}"/>
+                                    </SelectiveScrollingGrid>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="Margin" Value="0 4 0 0" />
+                    <Setter Property="Height" Value="50" />
+                    <Setter Property="FontFamily" Value="Arial" />
+                    <Setter Property="FontSize" Value="12" />
+                    <Setter Property="HorizontalContentAlignment" Value="Center" />
+                    <Setter Property="VerticalContentAlignment" Value="Center" />
+                    <!-- Дополнительные настройки стиля ячеек -->
+                </Style>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    <Style x:Key="TabItemStyle" TargetType="TabItem">
+        <Setter Property="Header" Value="Пользователи" />
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="BorderBrush" Value="#3B619E" />
+        <Setter Property="FontFamily" Value="C:\ПОИТ\4 sem\Course_project\Main_project\WpfApp1 2\WpfApp\WpfApp\Fonts\static\#Montserrat" />
+        <Setter Property="Foreground" Value="#3B619E" />
+        <Setter Property="FontSize" Value="12" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="Padding" Value="15 10" />
+        <Setter Property="Width" Value="150" />
+        <Setter Property="Margin" Value="0 5" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="Blue" />
+            </Trigger>
+            
+        </Style.Triggers>
+    </Style>
+    
+    <Style x:Key="NoHoverButtonStyle" 
+           TargetType="TabControl">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Template">
+            <Setter.Value>
+            <ControlTemplate TargetType="TabControl">
+                <Border Background="{TemplateBinding Background}"
+                        BorderBrush="{TemplateBinding BorderBrush}"                        
+                        BorderThickness="{TemplateBinding BorderThickness}">
+                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+            </ControlTemplate>
+        </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+        </Trigger>
+        </Style.Triggers>
+    </Style>
+    
+    
+</ResourceDictionary>

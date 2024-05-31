@@ -1,0 +1,1031 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\infrastructure\\commands\\deletesketchcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\infrastructure\\commands\\deletesketchcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\views\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\infrastructure\\commands\\cancelreservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\infrastructure\\commands\\cancelreservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\infrastructure\\commands\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\infrastructure\\commands\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\services\\emailmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\services\\emailmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\infrastructure\\commands\\remindercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\infrastructure\\commands\\remindercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\services\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\services\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\services\\dataconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\services\\dataconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\models\\sketch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\models\\sketch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\models\\master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\models\\master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\models\\favourite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\models\\favourite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\models\\acc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\models\\acc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\infrastructure\\forimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\infrastructure\\forimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\infrastructure\\forconvert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\infrastructure\\forconvert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\infrastructure\\commands\\reservationmastercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\infrastructure\\commands\\reservationmastercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\style\\style.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\style\\style.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\viewmodels\\startviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\viewmodels\\startviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\viewmodels\\adminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\viewmodels\\adminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\services\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\services\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\views\\startwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\startwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\views\\icloseable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\icloseable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\classdiagram1.cd||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\classdiagram1.cd||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\views\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\infrastructure\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\infrastructure\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\infrastructure\\commands\\openmastercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\infrastructure\\commands\\openmastercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\infrastructure\\commands\\favoritecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\infrastructure\\commands\\favoritecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\infrastructure\\commands\\deleteusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\infrastructure\\commands\\deleteusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\infrastructure\\commands\\deletereservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\infrastructure\\commands\\deletereservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\infrastructure\\commands\\deletemastercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\infrastructure\\commands\\deletemastercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\infrastructure\\commands\\deletefavorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\infrastructure\\commands\\deletefavorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\infrastructure\\commands\\changemastercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\infrastructure\\commands\\changemastercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\viewmodels\\viewmodelcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\viewmodels\\viewmodelcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\viewmodels\\reservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\viewmodels\\reservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\viewmodels\\registrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\viewmodels\\registrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\viewmodels\\sketchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\viewmodels\\sketchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\viewmodels\\personalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\viewmodels\\personalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\viewmodels\\mastresviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\viewmodels\\mastresviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\viewmodels\\logviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\viewmodels\\logviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\viewmodels\\favoriteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\viewmodels\\favoriteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\views\\startwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\startwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\views\\sketchwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\sketchwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\views\\sketchwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\sketchwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\views\\reservationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\reservationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\views\\reservationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\reservationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\views\\registrationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\registrationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\views\\registrationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\registrationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\views\\personalwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\personalwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\views\\personalwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\personalwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\views\\favoritewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\favoritewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\views\\favoritewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\favoritewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\views\\masterswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\masterswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\views\\masterswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\masterswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\views\\logwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\logwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|c:\\\u043F\u043E\u0438\u0442\\course2-master\\wpf_tattooshop_4sem\\wpfapp\\wpfapp\\views\\logwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B7670CB-3673-457D-A9EB-630C63A34D89}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\logwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CancelReservationCommand.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\CancelReservationCommand.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Infrastructure\\Commands\\CancelReservationCommand.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\CancelReservationCommand.cs",
+              "RelativeToolTip": "WpfApp\\Infrastructure\\Commands\\CancelReservationCommand.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAD4vwwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T00:59:22.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Command.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\Command.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Infrastructure\\Commands\\Command.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\Command.cs",
+              "RelativeToolTip": "WpfApp\\Infrastructure\\Commands\\Command.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAD4vw4AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:09:16.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminWindow.xaml",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\AdminWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\AdminWindow.xaml",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\AdminWindow.xaml",
+              "RelativeToolTip": "WpfApp\\Views\\AdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-27T22:09:16.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\App.config",
+              "RelativeDocumentMoniker": "WpfApp\\App.config",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\App.config",
+              "RelativeToolTip": "WpfApp\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-27T22:09:16.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeleteSketchCommand.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\DeleteSketchCommand.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Infrastructure\\Commands\\DeleteSketchCommand.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\DeleteSketchCommand.cs",
+              "RelativeToolTip": "WpfApp\\Infrastructure\\Commands\\DeleteSketchCommand.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAUwBkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T01:00:27.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmailMessage.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Services\\EmailMessage.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Services\\EmailMessage.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Services\\EmailMessage.cs",
+              "RelativeToolTip": "WpfApp\\Services\\EmailMessage.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:09:16.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReminderCommand.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\ReminderCommand.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Infrastructure\\Commands\\ReminderCommand.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\ReminderCommand.cs",
+              "RelativeToolTip": "WpfApp\\Infrastructure\\Commands\\ReminderCommand.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAD4vxQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T01:01:01.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Services\\Manager.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Services\\Manager.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Services\\Manager.cs",
+              "RelativeToolTip": "WpfApp\\Services\\Manager.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowEkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:09:17.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DataConnection.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Services\\DataConnection.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Services\\DataConnection.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Services\\DataConnection.cs",
+              "RelativeToolTip": "WpfApp\\Services\\DataConnection.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAgwFcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:09:16.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Models\\User.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Models\\User.cs",
+              "RelativeToolTip": "WpfApp\\Models\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:09:17.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Sketch.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Models\\Sketch.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Models\\Sketch.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Models\\Sketch.cs",
+              "RelativeToolTip": "WpfApp\\Models\\Sketch.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAYwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:09:16.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Models\\Reservation.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Models\\Reservation.cs",
+              "RelativeToolTip": "WpfApp\\Models\\Reservation.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAcwEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:09:16.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Master.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Models\\Master.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Models\\Master.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Models\\Master.cs",
+              "RelativeToolTip": "WpfApp\\Models\\Master.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwDgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T00:53:12.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Models\\Feedback.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Models\\Feedback.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Models\\Feedback.cs",
+              "RelativeToolTip": "WpfApp\\Models\\Feedback.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAwwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:09:16.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Favourite.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Models\\Favourite.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Models\\Favourite.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Models\\Favourite.cs",
+              "RelativeToolTip": "WpfApp\\Models\\Favourite.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA5wB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:09:16.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Models\\Admin.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Models\\Admin.cs",
+              "RelativeToolTip": "WpfApp\\Models\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:09:17.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Acc.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Models\\Acc.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Models\\Acc.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Models\\Acc.cs",
+              "RelativeToolTip": "WpfApp\\Models\\Acc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:09:16.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ForImage.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\ForImage.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Infrastructure\\ForImage.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\ForImage.cs",
+              "RelativeToolTip": "WpfApp\\Infrastructure\\ForImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T16:10:26.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ForConvert.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\ForConvert.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Infrastructure\\ForConvert.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\ForConvert.cs",
+              "RelativeToolTip": "WpfApp\\Infrastructure\\ForConvert.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T16:10:25.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Style.xaml",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Style\\Style.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\Style\\Style.xaml",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Style\\Style.xaml",
+              "RelativeToolTip": "WpfApp\\Style\\Style.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-27T22:09:16.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StartViewModel.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\ViewModels\\StartViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp\\ViewModels\\StartViewModel.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\ViewModels\\StartViewModel.cs",
+              "RelativeToolTip": "WpfApp\\ViewModels\\StartViewModel.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAywC0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T00:48:22.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AdminViewModel.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\ViewModels\\AdminViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp\\ViewModels\\AdminViewModel.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\ViewModels\\AdminViewModel.cs",
+              "RelativeToolTip": "WpfApp\\ViewModels\\AdminViewModel.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAlwCgAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:09:16.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ReservationMasterCommand.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\ReservationMasterCommand.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Infrastructure\\Commands\\ReservationMasterCommand.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\ReservationMasterCommand.cs",
+              "RelativeToolTip": "WpfApp\\Infrastructure\\Commands\\ReservationMasterCommand.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T01:01:06.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Validator.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Services\\Validator.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Services\\Validator.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Services\\Validator.cs",
+              "RelativeToolTip": "WpfApp\\Services\\Validator.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAUwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:09:16.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StartWindow.xaml.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\StartWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\StartWindow.xaml.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\StartWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\Views\\StartWindow.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAADwvzAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T00:42:00.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ICloseable.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\ICloseable.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\ICloseable.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\ICloseable.cs",
+              "RelativeToolTip": "WpfApp\\Views\\ICloseable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T01:11:24.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "WpfApp\\AssemblyInfo.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\AssemblyInfo.cs",
+              "RelativeToolTip": "WpfApp\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T00:44:36.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "WpfApp\\ClassDiagram1.cd",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\ClassDiagram1.cd",
+              "RelativeToolTip": "WpfApp\\ClassDiagram1.cd",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2024-04-30T01:43:50.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AdminWindow.xaml.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\AdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\AdminWindow.xaml.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\AdminWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\Views\\AdminWindow.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAIwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T00:36:11.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\App.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\App.xaml",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\App.xaml",
+              "RelativeToolTip": "WpfApp\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-27T22:09:16.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Resources.Designer.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Properties\\Resources.Designer.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Properties\\Resources.Designer.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Properties\\Resources.Designer.cs",
+              "RelativeToolTip": "WpfApp\\Properties\\Resources.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T23:56:07.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Infrastructure\\Commands\\RelayCommand.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "WpfApp\\Infrastructure\\Commands\\RelayCommand.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAIwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T01:00:55.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OpenMasterCommand.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\OpenMasterCommand.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Infrastructure\\Commands\\OpenMasterCommand.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\OpenMasterCommand.cs",
+              "RelativeToolTip": "WpfApp\\Infrastructure\\Commands\\OpenMasterCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T01:00:50.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "FavoriteCommand.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\FavoriteCommand.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Infrastructure\\Commands\\FavoriteCommand.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\FavoriteCommand.cs",
+              "RelativeToolTip": "WpfApp\\Infrastructure\\Commands\\FavoriteCommand.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAmwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:09:17.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DeleteUserCommand.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\DeleteUserCommand.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Infrastructure\\Commands\\DeleteUserCommand.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\DeleteUserCommand.cs",
+              "RelativeToolTip": "WpfApp\\Infrastructure\\Commands\\DeleteUserCommand.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA2wCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:09:16.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DeleteReservationCommand.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\DeleteReservationCommand.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Infrastructure\\Commands\\DeleteReservationCommand.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\DeleteReservationCommand.cs",
+              "RelativeToolTip": "WpfApp\\Infrastructure\\Commands\\DeleteReservationCommand.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T01:00:06.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DeleteMasterCommand.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\DeleteMasterCommand.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Infrastructure\\Commands\\DeleteMasterCommand.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\DeleteMasterCommand.cs",
+              "RelativeToolTip": "WpfApp\\Infrastructure\\Commands\\DeleteMasterCommand.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T00:59:57.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DeleteFavorite.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\DeleteFavorite.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Infrastructure\\Commands\\DeleteFavorite.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\DeleteFavorite.cs",
+              "RelativeToolTip": "WpfApp\\Infrastructure\\Commands\\DeleteFavorite.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA4wCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:09:16.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ChangeMasterCommand.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\ChangeMasterCommand.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Infrastructure\\Commands\\ChangeMasterCommand.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Infrastructure\\Commands\\ChangeMasterCommand.cs",
+              "RelativeToolTip": "WpfApp\\Infrastructure\\Commands\\ChangeMasterCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T00:59:28.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ViewModelcs.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\ViewModels\\ViewModelcs.cs",
+              "RelativeDocumentMoniker": "WpfApp\\ViewModels\\ViewModelcs.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\ViewModels\\ViewModelcs.cs",
+              "RelativeToolTip": "WpfApp\\ViewModels\\ViewModelcs.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAUwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T00:48:27.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ReservationViewModel.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\ViewModels\\ReservationViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp\\ViewModels\\ReservationViewModel.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\ViewModels\\ReservationViewModel.cs",
+              "RelativeToolTip": "WpfApp\\ViewModels\\ReservationViewModel.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAiwHQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:09:16.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "RegistrationViewModel.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\ViewModels\\RegistrationViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp\\ViewModels\\RegistrationViewModel.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\ViewModels\\RegistrationViewModel.cs",
+              "RelativeToolTip": "WpfApp\\ViewModels\\RegistrationViewModel.cs",
+              "ViewState": "AQIAANMAAAAAAAAAAAAmwPAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:09:16.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "SketchViewModel.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\ViewModels\\SketchViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp\\ViewModels\\SketchViewModel.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\ViewModels\\SketchViewModel.cs",
+              "RelativeToolTip": "WpfApp\\ViewModels\\SketchViewModel.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAcwHAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:09:16.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "PersonalViewModel.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\ViewModels\\PersonalViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp\\ViewModels\\PersonalViewModel.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\ViewModels\\PersonalViewModel.cs",
+              "RelativeToolTip": "WpfApp\\ViewModels\\PersonalViewModel.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA0wCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T00:47:56.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "MastresViewModel.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\ViewModels\\MastresViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp\\ViewModels\\MastresViewModel.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\ViewModels\\MastresViewModel.cs",
+              "RelativeToolTip": "WpfApp\\ViewModels\\MastresViewModel.cs",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAIwJcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:09:16.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LogViewModel.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\ViewModels\\LogViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp\\ViewModels\\LogViewModel.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\ViewModels\\LogViewModel.cs",
+              "RelativeToolTip": "WpfApp\\ViewModels\\LogViewModel.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAiwEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:09:16.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "FavoriteViewModel.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\ViewModels\\FavoriteViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp\\ViewModels\\FavoriteViewModel.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\ViewModels\\FavoriteViewModel.cs",
+              "RelativeToolTip": "WpfApp\\ViewModels\\FavoriteViewModel.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAADwvyQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:09:16.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "StartWindow.xaml",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\StartWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\StartWindow.xaml",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\StartWindow.xaml",
+              "RelativeToolTip": "WpfApp\\Views\\StartWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-27T22:09:16.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "SketchWindow.xaml.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\SketchWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\SketchWindow.xaml.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\SketchWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\Views\\SketchWindow.xaml.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAIwDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T00:41:26.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "SketchWindow.xaml",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\SketchWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\SketchWindow.xaml",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\SketchWindow.xaml",
+              "RelativeToolTip": "WpfApp\\Views\\SketchWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-27T22:09:16.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ReservationWindow.xaml.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\ReservationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\ReservationWindow.xaml.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\ReservationWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\Views\\ReservationWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T00:40:39.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ReservationWindow.xaml",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\ReservationWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\ReservationWindow.xaml",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\ReservationWindow.xaml",
+              "RelativeToolTip": "WpfApp\\Views\\ReservationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-27T22:09:16.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "RegistrationWindow.xaml.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\RegistrationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\RegistrationWindow.xaml.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\RegistrationWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\Views\\RegistrationWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T00:39:57.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "RegistrationWindow.xaml",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\RegistrationWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\RegistrationWindow.xaml",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\RegistrationWindow.xaml",
+              "RelativeToolTip": "WpfApp\\Views\\RegistrationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-27T22:09:16.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "PersonalWindow.xaml.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\PersonalWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\PersonalWindow.xaml.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\PersonalWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\Views\\PersonalWindow.xaml.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAUwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T00:39:13.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "PersonalWindow.xaml",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\PersonalWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\PersonalWindow.xaml",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\PersonalWindow.xaml",
+              "RelativeToolTip": "WpfApp\\Views\\PersonalWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-27T22:09:16.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "FavoriteWindow.xaml.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\FavoriteWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\FavoriteWindow.xaml.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\FavoriteWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\Views\\FavoriteWindow.xaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAUwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T00:38:20.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "FavoriteWindow.xaml",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\FavoriteWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\FavoriteWindow.xaml",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\FavoriteWindow.xaml",
+              "RelativeToolTip": "WpfApp\\Views\\FavoriteWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-27T22:09:16.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "MastersWindow.xaml.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\MastersWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\MastersWindow.xaml.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\MastersWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\Views\\MastersWindow.xaml.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAIwFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T00:37:15.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "MastersWindow.xaml",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\MastersWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\MastersWindow.xaml",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\MastersWindow.xaml",
+              "RelativeToolTip": "WpfApp\\Views\\MastersWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-27T22:09:16.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "LogWindow.xaml.cs",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\LogWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\LogWindow.xaml.cs",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\LogWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\Views\\LogWindow.xaml.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAIwDgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T00:35:23.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "LogWindow.xaml",
+              "DocumentMoniker": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\LogWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\LogWindow.xaml",
+              "ToolTip": "C:\\\u041F\u041E\u0418\u0422\\Course2-master\\WPF_TattooShop_4sem\\WpfApp\\WpfApp\\Views\\LogWindow.xaml",
+              "RelativeToolTip": "WpfApp\\Views\\LogWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-27T22:09:16.926Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

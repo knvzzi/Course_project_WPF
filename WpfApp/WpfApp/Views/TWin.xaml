@@ -1,0 +1,211 @@
+<Window x:Class="WpfApp.Views.TWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
+        xmlns:vm="clr-namespace:WpfApp.ViewModels"
+        Icon="C:\ПОИТ\4 sem\Course_project\Main_project\WpfApp 2\WpfApp\WpfApp\image\face-mask.png"
+        xmlns:local="clr-namespace:WpfApp.Views"
+        mc:Ignorable="d"
+        Title="TWin" Height="700" Width="1200" WindowState="Maximized"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        Background="Transparent"
+        AllowsTransparency="True">
+    <Window.DataContext>
+        <vm:TWinViewModel/>
+    </Window.DataContext>
+    <Border CornerRadius="12" >
+        <Border.Background>
+            <ImageBrush ImageSource="C:\ПОИТ\4 sem\Course_project\Main_project\WpfApp 2\WpfApp\WpfApp\image\d93083fd9e814a8c2320ad604e251ecf.jpg"></ImageBrush>
+        </Border.Background>
+        <Border CornerRadius="10"
+                BorderThickness="2"
+                Opacity="0.88">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                    <GradientStop Color="#031127" Offset="0"/>
+                    <GradientStop Color="#3B619E" Offset="0.95"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#80B1FF" Offset="0"/>
+                    <GradientStop Color="#1C51A6" Offset="0.75"/>
+                    <GradientStop Color="#A2C6FF" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="0" Margin="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="25"></ColumnDefinition>
+                        <ColumnDefinition Width="25"></ColumnDefinition>
+                        <ColumnDefinition Width="25"></ColumnDefinition>
+                        <ColumnDefinition Width="5"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.RowSpan = "2" Margin="20, 10" Orientation="Vertical" HorizontalAlignment="Left">
+                <Image Source="C:\ПОИТ\4 sem\Course_project\Main_project\WpfApp 2\WpfApp\WpfApp\image\face-mask.png" Grid.ColumnSpan="3" Height="40"></Image>
+                <TextBlock Text="ENIGMA"
+                           Foreground="White"
+                           FontSize="15"
+                           FontWeight="Medium"
+                           FontFamily="C:\ПОИТ\4 sem\Course_project\Main_project\WpfApp1 2\WpfApp\WpfApp\Fonts\static\#Montserrat"
+                           HorizontalAlignment="Center"/>
+                </StackPanel>
+                <Button x:Name="btnDown"
+                        BorderThickness="0"
+                        Foreground="White"
+                        FontSize="16"
+                        FontFamily="Montserrat"
+                        Cursor="Hand"
+                        
+                        Grid.Column="0"
+                        Command="{Binding DownCommand}"
+                        Width="30" HorizontalAlignment="Left">
+                    <fa:IconImage Icon="ArrowLeft" Width="10" Foreground="White"/>
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Background" Value="Transparent"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#278BEF"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Width="20" Height="20"
+                                    CornerRadius="10"
+                                    Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>    
+                </Button>
+                    <Button x:Name="btnMinimize"
+                        BorderThickness="0"
+                        Foreground="White"
+                        FontSize="16"
+                        FontFamily="Montserrat"
+                        Cursor="Hand"
+                        Grid.Column="1"
+                        Click="btnMinimize_Click">
+                        <fa:IconImage Icon="WindowMinimize" Width="10" Foreground="White"/>
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="Transparent"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#278BEF"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="20" Height="20"
+                                        CornerRadius="10"
+                                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>    
+                    </Button>
+                
+                <Button x:Name="btnMaximize"
+                        BorderThickness="0"
+                        Foreground="White"
+                        FontSize="16"
+                        FontFamily="Montserrat"
+                        Cursor="Hand"
+                        Grid.Column="2"
+                        Click="btnMaximize_Click">
+                    <fa:IconImage Icon="Square" Width="10" Foreground="White"/>
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Background" Value="Transparent"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#278BEF"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Width="20" Height="20"
+                                    CornerRadius="10"
+                                    Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>    
+                </Button>
+                
+                    <Button x:Name="btnClose"
+                        BorderThickness="0"
+                        Foreground="White"
+                        FontSize="12"
+                        FontFamily="Montserrat"
+                        Cursor="Hand"
+                        Grid.Column="3"
+                        Click="btnClose_Click">
+                        <fa:IconImage Icon="Xmark" Width="10" Foreground="White"/>
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="Transparent"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#C62DAE"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="20" Height="20"
+                                        CornerRadius="10"
+                                        Background="{TemplateBinding Background}">
+                                     <ContentPresenter VerticalAlignment="Center"
+                                                       HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                </Grid>
+        <StackPanel Margin="160" HorizontalAlignment="Center" Grid.Row="1">
+            <TextBlock Text="Приложение временно не работает, вернитесь позже :("
+                       Foreground="White"
+                       FontSize="25"
+                       FontWeight="Medium"
+                       FontFamily="C:\ПОИТ\4 sem\Course_project\Main_project\WpfApp1 2\WpfApp\WpfApp\Fonts\static\#Montserrat"
+                       HorizontalAlignment="Center"
+                       Margin="30"></TextBlock>
+            <Button  Command="{Binding DownCommand}"
+                     Height="50"
+                     FontFamily="C:\ПОИТ\4 sem\Course_project\Main_project\WpfApp1 2\WpfApp\WpfApp\Fonts\static\#Montserrat"
+                     Width="500"
+                     Content="Вернуться на страницу входа"></Button>
+        </StackPanel>
+    </Grid>
+            </Border>
+        </Border>
+</Window>
